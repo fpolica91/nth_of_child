@@ -4,40 +4,17 @@ li {
     padding: 10px;
 }
 
-li:nth-child(1) {
-    background-color: gold;
+li:nth-child(3n - 8) {
+    background-color: red;
 }
 
-li:nth-child(2) {
-    background-color: silver;
+li:nth-child(3n - 10) {
+    background-color: blue;
 }
 
-li:nth-child(3) {
-    background-color: #cd7f32;
+li:nth-child(3n - 12) {
+    background-color: yellow;
 }
 
-/*li:nth-child(odd) {*/
-/*   background-color:  #DDDDDD;*/
-/*}*/
 
-/*li:nth-child(even) {*/
-/*    background-color: #7FDBFF;*/
-/*}*/
 
-/*
-a - any number (how many elements need to be skipped)
-n = n and starts at 0
-b = any number (element to start with)
-(an+b)
-an example
-
-select every second element starting with the 3rd
-2n + 3
-a = 2
-n = 0
-b = 3
-*/
-
-li:nth-child(2n + 5) {
-    background-color: orange;
-}
